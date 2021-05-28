@@ -1,0 +1,158 @@
+body {
+  background-color: rgba(197, 197, 197, 0.158);
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+  margin-top: 50px;
+  margin-left: 150px;
+  width: 80%;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.651);
+}
+
+.izq {
+  background: #ff0022;
+  float: left;
+  width: 30%;
+  color: whitesmoke;
+  box-shadow: 4px 7px 4px 1px rgba(0, 0, 0, 0.651);
+  text-align: center;
+}
+
+.der {
+  background-color: #edf2f4;
+
+  float: right;
+  width: 70%;
+  box-shadow: 4px 7px 2px rgba(0, 0, 0, 0.651);
+}
+
+.foto {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 200px;
+  height: 200px;
+  border: 4px solid whitesmoke;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 100%;
+  filter: grayscale();
+}
+
+.foto:hover {
+  transform: scale(1.2);
+  transition: all 0.8s linear;
+  filter: none;
+}
+.escala:hover {
+  transform: scale(1.2);
+  transition: all 0.8s linear;
+  box-shadow: 12px 15px 41px 2px rgba(0, 0, 0, 0.78);
+}
+
+.contacto {
+  margin: 10px;
+  margin-top: 25px;
+}
+
+.habilidades {
+  margin: 10px;
+  margin-top: 25px;
+}
+
+.metas {
+  background-color: blue;
+  margin: 10px;
+  margin-top: 25px;
+}
+
+.experiencia {
+  background-color: green;
+  margin: 10px;
+  margin-top: 25px;
+}
+
+.escolaridad {
+  background-color: red;
+  margin: 10px;
+  margin-top: 25px;
+}
+
+.certificaciones {
+  background-color: rgb(122, 100, 110);
+  margin: 10px;
+  margin-top: 25px;
+}
+
+hr {
+  width: 75%;
+  height: 1px;
+  background-color: black;
+  border-color: black;
+}
+
+.obscuro {
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+}
+
+.titulo {
+  font-size: 40px;
+}
+
+.texto {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.progressbar {
+  background-color: black;
+  width: 90%;
+  border-radius: 13px;
+  /* (height of inner div) / 2 + padding */
+  padding: 3px;
+}
+
+.progressbar > div {
+  background-color: orange;
+  width: 10%;
+  /* Adjust with JavaScript */
+  height: 20px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 832px) {
+  .container {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 70%;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.651);
+  }
+  .izq {
+    background: #ff0022;
+    width: 100%;
+    color: whitesmoke;
+    box-shadow: 4px 7px 4px 1px rgba(0, 0, 0, 0.651);
+    text-align: center;
+  }
+
+  .der {
+    background-color: #edf2f4;
+    width: 100%;
+    box-shadow: 4px 7px 2px rgba(0, 0, 0, 0.651);
+  }
+
+  .foto {
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 200px;
+    height: 200px;
+    border: 4px solid whitesmoke;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 100%;
+    filter: none;
+  }
+}
